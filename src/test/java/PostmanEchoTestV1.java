@@ -19,7 +19,7 @@ class MobileBankApiTestV3 {
             // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo(""))
+                .body("data", equalTo("hata deda, vsem privet!"))
                 .body("url", equalTo("https://postman-echo.com/post"));
     }
 }
